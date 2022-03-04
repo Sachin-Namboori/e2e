@@ -12,7 +12,7 @@ public class ExtentReportdemo {
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Framework Report");
 		reporter.config().setDocumentTitle("Test Outcomes");
-		
+		System.out.println("This is kool");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "Sachin Namboori");
